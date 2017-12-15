@@ -44,6 +44,10 @@ public class ConfigurationHandler {
                 "0x505000FF",
                 "Border color of all tooltips (ARGB)"
         );
+
+        if(configuration.hasChanged()) {
+            configuration.save();
+        }
     }
 
     public static List<IConfigElement> getConfigElements() {
