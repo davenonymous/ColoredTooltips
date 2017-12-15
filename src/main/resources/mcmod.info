@@ -1,0 +1,16 @@
+[
+{
+  "modid": "coloredtooltips",
+  "name": "Colored Tooltips",
+  "description": "Changes the color of tooltips in the game",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Davenonymous"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
