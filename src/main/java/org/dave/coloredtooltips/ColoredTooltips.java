@@ -9,7 +9,8 @@ import org.dave.coloredtooltips.config.ConfigurationHandler;
 @Mod(
         modid = ColoredTooltips.MODID, version = ColoredTooltips.VERSION,
         guiFactory = ColoredTooltips.GUI_FACTORY,
-        clientSideOnly = true
+        clientSideOnly = true,
+        acceptedMinecraftVersions = "[1.12,1.13)"
 )
 public class ColoredTooltips {
     public static final String MODID = "coloredtooltips";
